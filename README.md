@@ -13,7 +13,7 @@ Each method was tested on a publicly available, labeled dataset featuring divers
 ---
 
 <img src="assests/system2.png" width='1000'>
-> The complete system architecture of the Drowsiness Detection System 
+> ✅ **The complete system architecture of the Drowsiness Detection System **  
 
 ## 📂 Dataset
 
