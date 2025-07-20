@@ -1,4 +1,4 @@
-# 🛑 Real-Time Driver Drowsiness Detection using YOLO Variants & Eye Aspect Ratio
+# 🛑 Real-Time Driver Drowsiness Detection using YOLO Variants 
 
 Driver drowsiness remains a critical factor in road accidents, accounting for thousands of fatalities and injuries each year. This project presents a comprehensive evaluation of real-time, non-intrusive drowsiness detection methods using computer vision techniques, specifically leveraging YOLO (You Only Look Once) object detection architectures.
 
@@ -42,16 +42,6 @@ The following table summarizes the key performance metrics for each model varian
 
 > ✅ **Best Accuracy:** YOLOv9c  
 > ⚖️ **Best Efficiency Trade-off:** YOLOv11n (ideal for embedded deployment)
-
----
-
-## 👁️ EAR-Based Drowsiness Detection
-
-- Based on **Eye Aspect Ratio (EAR)** thresholding
-- Lightweight and fast using **Dlib** facial landmarks
-- Works well under ideal conditions but suffers from:
-  - Sensitivity to **head pose**
-  - Poor robustness with **eyewear** or **occlusions**
 
 ---
 
