@@ -12,6 +12,8 @@ Each method was tested on a publicly available, labeled dataset featuring divers
 
 ---
 
+<img src="assets/visualization.png" width='1000'>
+
 ## 📂 Dataset
 
 We used the **UTARLDD dataset** for training and evaluation:  
@@ -50,12 +52,6 @@ We used the **UTARLDD dataset** for training and evaluation:
 
 ---
 
-## 🖼️ Example Output
-
-![Drowsiness Detection Sample Output](/assets/images/drowsiness-detection-output.png)  
-*Real-time frame showing bounding boxes for awake/drowsy state using YOLOv11n*
-
----
 
 ## 📌 Conclusion
 
@@ -68,11 +64,6 @@ These insights are applicable in:
 
 ---
 
-## 🎥 Presentation & Demo
-
-▶️ [Watch Project Presentation](https://your-presentation-link.com)
-
----
 
 ## 🔧 Technologies Used
 
