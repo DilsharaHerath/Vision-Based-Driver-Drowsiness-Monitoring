@@ -12,7 +12,7 @@ Each method was tested on a publicly available, labeled dataset featuring divers
 
 ---
 
-<img src="assets/visualization.png" width='1000'>
+<img src="assests/system2.png" width='1000'>
 
 ## 📂 Dataset
 
