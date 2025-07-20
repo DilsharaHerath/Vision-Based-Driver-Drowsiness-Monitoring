@@ -28,15 +28,17 @@ We used the **UTARLDD dataset** for training and evaluation:
 
 ## 📊 Performance Evaluation
 
-| YOLO Variant | Precision | Recall | mAP@0.5 | mAP@0.5–0.95 |
-|--------------|-----------|--------|---------|--------------|
-| YOLOv5s      | 0.925     | 0.930  | 0.951   | 0.781        |
-| YOLOv9c      | **0.962** | **0.978**  | **0.986**   | **0.829**        |
-| YOLOv9t      | 0.948     | 0.970  | 0.978   | 0.812        |
-| YOLOv10n     | 0.942     | 0.968  | 0.975   | 0.804        |
-| YOLOv10l     | 0.957     | 0.974  | 0.983   | 0.823        |
-| YOLOv11n     | 0.954     | 0.958  | 0.976   | 0.817        |
-| YOLOv11l     | 0.960     | 0.965  | 0.979   | 0.821        |
+The following table summarizes the key performance metrics for each model variant. **Precision**, **Recall**, and **mAP** (mean Average Precision) are standard metrics for evaluating object detection models. The **Avg. Epoch Time** indicates the average time taken to train the model for a single epoch.
+
+| YOLO Variant | Precision | Recall | mAP@0.5 | mAP@0.5–0.95 | Avg. Epoch Time |
+|--------------|-----------|--------|---------|--------------|-----------------|
+| YOLOv5s      | 0.920     | 0.904  | 0.962   | 0.761        | N/A             |
+| YOLOv9c      | 0.934     | 0.978  | 0.986   | 0.800        | 1000.013        |
+| YOLOv9t      | 0.954     | 0.941  | 0.974   | 0.792        | 452.890         |
+| YOLOv10n     | 0.933     | 0.935  | 0.967   | 0.778        | 315.413         |
+| YOLOv10l     | 0.911     | 0.947  | 0.963   | 0.770        | 1083.836        |
+| YOLOv11n     | 0.954     | 0.941  | 0.981   | 0.795        | 273.718         |
+| YOLOv11l     | 0.909     | 0.975  | 0.977   | 0.789        | 886.343         |
 
 > ✅ **Best Accuracy:** YOLOv9c  
 > ⚖️ **Best Efficiency Trade-off:** YOLOv11n (ideal for embedded deployment)
